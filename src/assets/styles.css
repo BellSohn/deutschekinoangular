@@ -1,0 +1,241 @@
+
+
+@font-face{
+
+font-family:"KronaOne";
+src:url('fonts/KronaOne-Regular.ttf');
+
+}
+
+
+
+*{
+	
+	padding:0px;
+	font-family: "KronaOne";
+
+}
+
+
+body{
+
+	background: url('./images/fondo.jpg');
+	/*overflow-wrap: all;*/
+	
+}
+
+#nachoben{
+	text-align: center;
+}
+
+#logo{
+	margin: 62px 0px 0px 144px;
+
+}
+
+#logo img{
+	box-shadow: 2px 2px 2px #dfd7a8;
+}
+
+.fahneDe{
+	background:url('../assets/images/de.png');
+}
+
+
+
+/*filme.html*/
+
+#titulo-filme{
+	
+	background: black;
+	color: white;
+	text-align: center;	
+	width:1274px;
+	height: 50px;
+	border: 2px solid black;
+}
+
+#titulo-filme h2{
+font-size: 15px;
+text-shadow: 1px 1px 1px white;
+}
+
+
+
+#film-jahren{
+	color: white;
+	margin: 46px 0px 0px 2px;
+	width: auto;
+	background: black;
+}
+
+#film-jahren button{
+	box-shadow: 0px 2px 2px white;
+	transition: all 200ms;
+
+
+}
+
+#film-jahren button:hover{
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+	box-shadow: 0px 2px 2px gray;
+}
+
+
+
+#film-jahren ul li{
+/*border: 2px solid white;*/
+list-style: none;
+letter-spacing:0px;
+width: 109px;
+margin: 9px 0px 0px 8px;
+
+
+display: table-cell;
+
+}
+
+
+#film-jahren ul li button{
+	/*border: 2px solid white;*/
+margin: 15px 1px 4px 13px;
+}
+
+#film-jahren ul li{
+	text-shadow: 1px 1px 1px white;
+}
+
+
+
+#filmContent{
+/*border: 2px solid black;*/
+background:black;
+color:white;
+text-align:center;
+width: 820px;
+margin: 62px 0px 18px 196px;
+box-shadow: 2px 2px 2px gray;
+
+
+}
+
+#filmContent ul li{
+	display: block;
+	align-content: center;
+	margin: 9px 0px 0px 23px;
+	text-shadow: 1px 1px 2px white;
+}
+
+#filmContent img{
+	box-shadow: 1px 1px 2px gray;
+}
+
+
+/*regi.component.html*/
+
+#titulo-regi{
+	background: black;
+	color: white;
+	text-align: center;	
+	width:1274px;
+	height: 50px;
+	border: 2px solid black;
+	text-shadow: 1px 1px 1px white;
+	
+}
+
+#titulo-regi h2{
+
+	font-size:15px;
+	text-align: center;
+	
+}
+
+#div-regis{
+	/*border: 2px solid white;*/
+	color: white;
+}
+
+#table-regis{
+background:black;
+font-size: 14px;
+margin: 20px 0px 0px 0px;
+text-align: center;
+width: 100%;
+border: gray;
+text-shadow: 0.5px 0.5px 0.5px white;
+}
+
+#table-regis td{
+	padding: 2px;
+	line-height: 22px;
+}
+
+
+#tablehead{
+
+	background-color: gray;
+	margin-top: 0px;
+	line-height: 47px;
+}
+
+
+
+
+#weitere-info{
+	color: white;
+	margin: 76px 0px 0px 126px;
+}
+
+#weitere-info a{
+	color: gray;
+}
+
+
+
+/*actor.component.html*/
+
+
+#titulo-actors{
+	background: black;
+	color: white;
+	text-align: center;	
+	width:1274px;
+	height: 50px;
+	border: 2px solid black;
+	text-shadow: 1px 1px 1px white;
+}
+
+#titulo-actors h2{
+	font-size: 15px;
+	text-align: center;
+}
+
+#div-actors{
+	border: 2px solid gray;
+	color: white;
+	margin: 20px 0px 0px 0px;
+
+}
+
+#actorTable{
+	text-align:center;
+	font-size: 14px;
+	background:black;
+	width: 100%;
+	/*border:2px solid gray;*/
+	box-shadow: 3px 2px 2px gray;
+	text-shadow: 0.5px 0.5px 1px white;
+}
+
+#actorTable img{
+	box-shadow: 1px 1px 4px gray;
+	transition: all 300ms;
+}
+
+#actorTable img:hover{
+	cursor: pointer;
+	transform: scale(4,4);
+}
+

@@ -1,1 +1,173 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/*
+@font-face{
+
+font-family:"KronaOne";
+src:url('./assets/fonts/KronaOne-Regular.ttf');
+
+}
+
+
+
+*{
+	
+	padding:0px;
+	font-family: "KronaOne";
+}
+
+
+body{
+	background: url('./assets/images/fondo.jpg');
+}
+
+.wrap{
+	width: 100%;
+	margin: 0px auto;
+	
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+#header{
+	position: absolute;
+	
+	width: 100%;
+	background-color:black;
+	color:white;
+	height: 100px;	
+	z-index: 1;
+}
+
+#header_title{
+	text-align: center;
+
+}
+
+#header_title  h2{
+	margin-top: 0px;
+	margin-top: 17px;
+}
+
+#menu {
+margin-top: 20px;	
+float: left;
+margin-left: 233px;
+}
+
+#menu ul li{
+	display: inline-block;
+	margin: 0px 56px 0px 0px;
+}
+
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+
+#logo{
+	border: 2px solid white;
+	color:white;
+	width: 700px;
+	height: 630px;
+	margin: 178px 0px 0px 287px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#footer{
+
+width:100%;
+height:100px;
+background-color:black;
+color:white;
+text-align: center;
+overflow: hidden;
+margin:300px 0px 0px 0px;
+
+
+
+}
+
+
+
+
+
+#titulo-filme{
+color:white;
+position: absolute;
+margin: 135px 0px 0px 218px;
+}
+
+#film-jahren{
+	position: absolute;
+	border: 2px solid white;
+	color: white;
+	width: 200px;	
+	margin:238px 0px 0px 0px;
+	text-align: center;
+}
+
+#film-jahren ol{
+	margin:3px 0px;
+}
+#film-jahren ol li{
+	margin: 13px 0px;
+	list-style-type: none;
+}
+
+#filmContent{
+position:absolute;
+background-color: black;
+color:white;
+border: 2px solid white;
+width: 400px;
+height: auto;
+margin: 242px 0px 0px 443px;
+display: block;
+font-size: 12px;
+
+}
+
+#tablemovies{
+	width: 700px;
+}
+
+
+#filmContent ul li{
+	list-style-type: none;
+}
+
+
+
+
+#titulo-regi{
+	position: absolute;
+	border: 2px solid
+	white;
+	color:
+	white;
+	width: 413px;
+	height: 36px;
+	margin: 135px 0px 0px 410px;
+	text-align: center;
+}
+
+#div-regis{
+	border: 2px solid
+	white;
+	color:
+	white;
+	font-size: 12px;
+	margin: 227px 0px 0px 40px;
+	position: absolute;
+
+}
+*/
+

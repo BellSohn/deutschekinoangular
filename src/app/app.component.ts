@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'deutschekinoangular';
+
+  /*title = 'das deutsche Kino';
+  footer = "Web Site erstellt von Mario Bellsolá";*/
+  
 }

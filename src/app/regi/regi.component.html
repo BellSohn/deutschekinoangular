@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<div id="titulo-regi">
+			<h2>{{ titulo }}</h2>
+		</div>
+
+		<div id="div-regis">
+			<table id="table-regis">
+				<tr id="tablehead">
+					<th>Name</th>
+					<th>Geboren</th>
+					<th>Tod</th>
+					<th>Geburtsort</th>
+					<th>Ort des Todes</th>
+					<th>Filme</th>
+					<th>Oscars</th>
+					
+				</tr>
+				<tr *ngFor="let dato of datos">
+					<td>{{ dato.name }}</td>
+					<td>{{ dato.dbirth }}</td>
+					<td [style.color]="dato.ddeath ? 'gray' : 'white'">{{ dato.ddeath }}</td>
+					<td>{{ dato.birthcity }}</td>
+					<td [style.color]="dato.deathcity ? 'gray' : 'white'">{{dato.deathcity }}</td>
+					<td>{{ dato.numberfilme}}</td>
+					<td *ngIf="dato.numberoscar" [style.color]="dato.numberoscar ? 'green' : 'white'">{{ dato.numberoscar }}</td>
+					
+ 
+				</tr>
+				
+			</table>
+		</div>
+		<div id="weitere-info">
+			<p>hier drücken um mehr zu wissen: <a href="https://de.wikipedia.org/wiki/Liste_deutscher_Filmregisseure" target="target">https://de.wikipedia.org/wiki/Liste_deutscher_Filmregisseure</a></p>
+		</div>
+		
+	</body>
+</html>

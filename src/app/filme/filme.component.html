@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function sal(){
+			alert('Hey!');
+		}
+	</script>
+		
+	
+	
+	
+	
+</head>
+<body>
+	<div id="titulo-filme">
+		<h2>{{ titulo }}</h2>
+	</div>
+	<div id="film-jahren">
+		<ul>
+			<li *ngFor="let dato of datos;let indice = index">
+					{{ dato.year }}
+			<button #btnInfo type="button" [disabled]="click[indice]" (click)="verInfoPorIndice(indice); click[indice] = true "><img src="../assets/images/claqueta.png"></button>
+			</li>	
+		</ul> 	
+	</div>
+	
+
+<div id="filmContent"  #filmContent	 *ngIf="infoFilm && infoFilm.length > 0">		
+		<ul *ngFor="let film of infoFilm; let indice = index">
+			<li>{{ film.year }}</li>
+			<li>Titel: {{ film.name }}</li>
+			<li>Genre: {{ film.gender }}</li>
+			<li> Hauptrolle: {{ film.mainrole }}</li>
+			<li>Regisseur: {{ film.director }}</li>
+			<li><p><img src="../assets/images/Filmen/{{ film.bild }}"></p></li>				
+		</ul>
+		<br>		
+</div>	
+
+	
+		
+	
+</body>
+	
+</html>

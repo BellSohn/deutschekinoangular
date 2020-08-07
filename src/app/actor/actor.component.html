@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<div id="titulo-actors">
+			<h2>{{ titulo }}</h2>
+		</div>
+		<div id="div-actors">
+			<table id="actorTable">
+				<tr id="tablehead">
+					<th>Name</th>
+					<th>Abstammung</th>
+					<th>Geburtsdatum</th>
+					<th>Geburtsort</th>
+					<th>Tod</th>
+					<th>Bild</th>
+				</tr>
+				<tr *ngFor="let dato of datos"> 
+					<td>{{dato.name}}</td>
+					<td>{{dato.abstammung}}</td>
+					<td>{{dato.geburtDatum}}</td>
+					<td>{{dato.gebutsOrt}}</td>
+					<td>{{dato.todDatum}}</td>
+					<td><img src="../assets/images/Actors/{{dato.bild}}"></td>
+
+				</tr>
+			</table>
+			
+		</div>
+		<div id="weitere-info">
+			<p>
+				hier drücken um mehr zu wissen:<a href="https://www.google.de/search?source=hp&ei=H7VjXq6eM4jEUrmfsrAG&q=die+bekanntesten+deutschen+schauspieler&oq=die+ber%C3%BChmtesten+deutschen+Sc&gs_l=psy-ab.3.0.0i10l4j0i22i30l6.15.15577..18348...4.0..0.174.2263.26j4......0....1..gws-wiz.....6..0j0i131j0i362i308i154i357j0i13j0i13i10j33i22i29i30.gdgTrLvt1ww" target="target">https://www.google.de/search?source=hp&ei=H7VjXq6eM4jEUrmfsrAG&q=die+bekanntesten+deutschen+schauspieler&oq=die+ber%C3%BChmtesten+deutschen+Sc&gs_l=psy-ab.3.0.0i10l4j0i22i30l6.15.15577..18348...4.0..0.174.2263.26j4......0....1..gws-wiz.....6..0j0i131j0i362i308i154i357j0i13j0i13i10j33i22i29i30.gdgTrLvt1ww</a>
+			</p>
+		</div>
+
+
+
+	</body>
+</html>

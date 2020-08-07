@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="titulo-actors">
+		<h2>{{title}}</h2>
+	</div>
+	<div id="div-actors">
+		<table id="actorTable">
+			<tr id="tablehead">
+					<th>Name</th>
+					<th>Abstammung</th>
+					<th>Geburtsdatum</th>
+					<th>Geburtsort</th>
+					<th>Tod</th>
+					<th>Bild</th>
+				</tr>
+				<tr *ngFor="let dato of datos">
+					<td>{{dato.name}}</td>
+					<td>{{dato.abstammung}}</td>
+					<td>{{dato.geburtDatum}}</td>
+					<td>{{dato.gebutsOrt}}</td>
+					<td>{{dato.todDatum}}</td>
+					<td><img src="../assets/images/Actress/{{dato.bild}}"></td>
+				</tr>
+		</table>
+	</div>
+	<div id="weitere-info">
+		<p>
+			hier drücken um mehr zu wissen:<a href="https://www.google.com/search?q=Die+besten+Schauspielerinnen+Deutschlands&oq=Die+besten+Schauspielerinnen+Deutschlands&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8" target="target">https://www.google.com/search?q=Die+besten+Schauspielerinnen+Deutschlands&oq=Die+besten+Schauspielerinnen+Deutschlands&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8</a>
+		</p>
+	</div>
+	
+</body>
