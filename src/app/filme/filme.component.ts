@@ -8,8 +8,7 @@ import { Filme } from '../models/filme';
 })
 export class FilmeComponent implements OnInit {
 
-	public titulo = "die bedeutenste deutsche Filme im Laufe des Jahres"
-  //public clickArray = new Array(1).fill(false);
+	public titulo = "die bedeutenste deutsche Filme im Laufe des Jahres"  
   public click = new Array;
   public count:number;
 	public films:Array<Filme>;
@@ -56,10 +55,8 @@ export class FilmeComponent implements OnInit {
   ngOnInit() {
 
   		this.films.forEach((film,index)=>{
-        this.datos.push(film);
-        
-        //console.log(this.datos);
-        
+        this.datos.push(film);       
+                
   		});
   }
 
