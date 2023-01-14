@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  /*title = 'das deutsche Kino';
-  footer = "Web Site erstellt von Mario Bellsolá";*/
+  
   
 }
