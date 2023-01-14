@@ -1,8 +1,8 @@
-//importar modulos del router de Angular
+//import modules from Angular router
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-//importar componentes
+//import componentes
 import { HomeComponent} from './home/home.component';
 import { FilmeComponent} from './filme/filme.component';
 import { RegiComponent} from './regi/regi.component';
@@ -10,11 +10,7 @@ import { ActorComponent } from './actor/actor.component';
 import { ActresComponent } from './actres/actres.component'
 
 
-
-
-
-
-//Array de rutas
+//routes array
 const appRoutes:Routes = [
 {path:'',component:HomeComponent},
 {path:'home',component:HomeComponent},
@@ -26,6 +22,6 @@ const appRoutes:Routes = [
 ];
 
 
-//exportar el modulo del router
+//export router module
 export const AppRoutingProviders:any[]= [];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
